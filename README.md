@@ -88,6 +88,9 @@ Amazon DynamoDB, Bigtable, Cassandra, Hbase, Google Cloud Datastore, entre outro
 
 ## Como usar bancos de dados NoSQL?
 
+![image](https://user-images.githubusercontent.com/64448041/190866521-1b7f9a47-d02b-4f8d-8262-e3e323aaa621.png)
+
+
 Cada software de banco de dados NoSQL tem suas características. Por isso, é necessário conhecer aquele que melhor se adequa às suas necessidades ou às de sua empresa para aprofundar-se neles.
 
 O interessante é que muitos já possuem ótima documentação e permitem usar a linguagem de programação de sua preferência para operá-los.
