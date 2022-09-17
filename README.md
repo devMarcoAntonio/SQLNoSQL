@@ -75,3 +75,4 @@ O interessante é que muitos já possuem ótima documentação e permitem usar a
 MongoDB, um banco NoSQL baseado em documentos, por exemplo, é muito utilizado por startups, por meio da linguagem Javascript e da tecnologia Node.js, para publicar sites e sistemas web escaláveis rapidamente. No curso de Programação Back-End da Awari, você tem uma introdução ao assunto.
 
 Já bancos de dados colunares, como Hbase, Cassandra e DynamoDB, são comuns no dia a dia da Engenharia de Dados ou até, em alguns casos, na etapa de obtenção de dados da Ciência de Dados.
+fonte:[https://awari.com.br/banco-de-dados-nao-relacional/?utm_source=blog]!awari
