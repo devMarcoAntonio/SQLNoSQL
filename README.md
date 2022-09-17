@@ -18,6 +18,7 @@ São exemplos de SGBDs de dados relacionais: SQLite, MySQL, MariaDB, Microsoft S
 __
 # SQL
 ![image](https://user-images.githubusercontent.com/64448041/190866166-9c7b9259-73e9-43d5-b9f5-7afdc891d2cb.png)
+
 fonte:[w3school](https://w3cschoool.com/mysql-rename-table)
 
 SQL é a sigla para Structured Query Language (“Linguagem de Consulta Estruturada”, em tradução livre). É a linguagem padrão para operações em bancos de dados relacionais. Por isso, tornou-se comum chamá-los de “bancos de dados SQL”.
@@ -42,6 +43,10 @@ Tipos de bancos de dados NoSQL
 Bancos de dados NoSQL podem ter os seguintes esquemas (formas de organizar os dados):
 
 ## 1. Documentos
+![image](https://user-images.githubusercontent.com/64448041/190866244-ebad6b2a-812a-46c4-a079-0b1716d16e6e.png)
+
+fonte:[Digital Ocean](https://www.digitalocean.com/community/conceptual_articles/an-introduction-to-document-oriented-databases)
+
 Neste esquema, os dados são armazenados em “textos”. Por exemplo, dados de clientes estarão organizados de forma sequencial, como uma folha de formulário.
 
 Tais textos podem ser altamente estruturados (ter campos bem definidos e comuns a todos os documentos, como CPF e nome de cada cliente) ou podem ser semiestruturados ou não estruturados (quando não há padronização dos campos).
@@ -49,6 +54,10 @@ Tais textos podem ser altamente estruturados (ter campos bem definidos e comuns 
 MongoDB, Elasticsearch e CouchDB são exemplos populares de bancos NoSQL baseados em documentos.
 
 ## 2. Chave-valor
+![image](https://user-images.githubusercontent.com/64448041/190866298-47f3d3d3-c31c-45d5-bd4a-aa840f96387b.png)
+
+fonte:[dev.to](https://dev.to/aws-builders/intro-to-4-types-of-nosql-databases-45nh)
+
 Bancos NoSQL do tipo chave-valor são como “dicionários”. Eles permitem cadastrar uma chave (um registro único e inconfundível) e associar quaisquer valores (informações) a essas chaves.
 
 Isso permite muita flexibilidade e rapidez nas consultas. Podemos associar muitos campos de dados diferentes a uma única chave, bastando acessar tal chave para recuperá-los.
@@ -56,6 +65,10 @@ Isso permite muita flexibilidade e rapidez nas consultas. Podemos associar muito
 Redis, Apache Ignite e Memcached são exemplos populares de bancos NoSQL que usam o esquema chave-valor.
 
 ## 3. Grafo
+![image](https://user-images.githubusercontent.com/64448041/190866322-80cf9d08-a80c-4fff-92cb-89d237d158ad.png)
+
+fonte:[aws.amazon](https://docs.aws.amazon.com/pt_br/neptune/latest/userguide/graph-get-started.html)
+
 Um grafo é uma coleção de nós ligados por arestas. Em bancos de dados do tipo, os dados são os nós e os relacionamentos entre eles, as arestas. Neles, podemos relacionar facilmente clientes aos produtos que mais compram, por exemplo.
 
 Tanto que são muito usados para mecanismos de recomendação (indicar um produto que o cliente pode gostar, com base em suas preferências) e para detecção de fraude (comparar se o número de cartão de crédito usado por ele é sempre o mesmo).
@@ -63,6 +76,10 @@ Tanto que são muito usados para mecanismos de recomendação (indicar um produt
 São exemplos populares de bancos NoSQL baseados em grafos: Neo4J, OrientDB, AllegroGraph, entre outros.
 
 ## 4. Colunas
+![image](https://user-images.githubusercontent.com/64448041/190866391-e19ba852-1a73-4850-a326-33baca52d1d0.png)
+
+fonte:[scylladb](https://www.scylladb.com/glossary/wide-column-database/)
+
 Questões técnicas são os maiores trunfos de bancos de dados NoSQL baseados em colunas. Eles reduzem a necessidade de leitura em disco durante consultas aos dados e utilizam menos memória para exibir as informações.
 
 São usados principalmente em aplicativos analíticos, que precisam realizar muito cálculos com extrema rapidez, e em data warehouses (“armazéns de dados”), grandes repositórios de dados usados por empresas.
