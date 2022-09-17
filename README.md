@@ -17,6 +17,9 @@ Um banco de dados relacional pode ter diversas tabelas, as quais se relacionam e
 São exemplos de SGBDs de dados relacionais: SQLite, MySQL, MariaDB, Microsoft SQL Server, PostgreSQL, Oracle, entre outros.
 __
 # SQL
+![image](https://user-images.githubusercontent.com/64448041/190866166-9c7b9259-73e9-43d5-b9f5-7afdc891d2cb.png)
+fonte:[w3school](https://w3cschoool.com/mysql-rename-table)
+
 SQL é a sigla para Structured Query Language (“Linguagem de Consulta Estruturada”, em tradução livre). É a linguagem padrão para operações em bancos de dados relacionais. Por isso, tornou-se comum chamá-los de “bancos de dados SQL”.
 
 Por meio de SQL, é possível criar (create), ler (read), alterar (update) e excluir (delete) dados — o famoso “CRUD” — em bancos relacionais.
@@ -75,4 +78,5 @@ O interessante é que muitos já possuem ótima documentação e permitem usar a
 MongoDB, um banco NoSQL baseado em documentos, por exemplo, é muito utilizado por startups, por meio da linguagem Javascript e da tecnologia Node.js, para publicar sites e sistemas web escaláveis rapidamente. No curso de Programação Back-End da Awari, você tem uma introdução ao assunto.
 
 Já bancos de dados colunares, como Hbase, Cassandra e DynamoDB, são comuns no dia a dia da Engenharia de Dados ou até, em alguns casos, na etapa de obtenção de dados da Ciência de Dados.
+
 fonte:[awari](https://awari.com.br/banco-de-dados-nao-relacional/?utm_source=blog)
